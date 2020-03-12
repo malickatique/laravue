@@ -6,9 +6,11 @@
 
 require('./bootstrap');
 
-import router from './routes';
+import router from './routes.js';
+import store from './store/store.js';
 
 new Vue({
+    store,
     el: '#vue_app',
-    router: router
+    router
 });

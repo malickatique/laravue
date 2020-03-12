@@ -7,7 +7,6 @@
     <title>LaraVue</title>
 
     <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet" />
-    
 
 </head>
 

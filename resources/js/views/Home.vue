@@ -6,7 +6,8 @@
                     <div class="card-header">home Component</div>
 
                     <div class="card-body">
-                        I'm an home component.
+                        Data from store: {{ $store.state.name }}
+                        
                     </div>
                 </div>
             </div>
